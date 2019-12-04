@@ -52,12 +52,12 @@ def using_flatten (array)
      flat_array = array.flatten
 end
 
-def using_delete (array) 
+def using_delete (array,string)
+    string="Steven"
     instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    no_offense_steven = array.delete("Steven")
-end
+    no_offense_steven = array.delete(string)
 
-def using_delete_at (array)
+def using_delete_at (array,)
     famous_robots = ["Johnny 5", "R2D2", "Robocop"]
     deleted_robot = array.delete(2)
 end
