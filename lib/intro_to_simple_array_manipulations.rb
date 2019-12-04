@@ -52,9 +52,9 @@ def using_flatten (array)
      flat_array = array.flatten
 end
 
-def using_delete (array, element) 
+def using_delete (array, "Steven") 
     instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    no_offense_steven = instructors.delete(element)
+    no_offense_steven = instructors.delete("Steven")
 end
 
 describe "using_delete_at" do 
