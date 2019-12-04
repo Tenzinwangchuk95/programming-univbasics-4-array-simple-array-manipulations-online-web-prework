@@ -5,4 +5,4 @@ def using_push (array, next_color)
 end
 
 def using_unshift(array, first_color)
-  colors_in_the_rainbow = [re]
+  
