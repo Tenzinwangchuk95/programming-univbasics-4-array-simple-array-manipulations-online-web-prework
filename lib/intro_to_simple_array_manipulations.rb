@@ -5,5 +5,5 @@ def using_push (array, next_color)
 end
 
 def using_unshift(array, first_color)
-  colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
+  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
   first_color +
