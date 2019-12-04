@@ -52,3 +52,15 @@ def using_flatten (array)
      flat_array = array.flatten
 end
 
+def using_delete (array, element) 
+    instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+    no_offense_steven = instructors.delete(element)
+end
+
+describe "using_delete_at" do 
+  it "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
+    famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+    deleted_robot = using_delete_at(famous_robots, 2)
+    expect(deleted_robot).to eq("Robocop")
+  end
+end
