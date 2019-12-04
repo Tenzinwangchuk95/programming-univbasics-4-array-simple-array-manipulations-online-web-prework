@@ -48,7 +48,6 @@ def using_uniq (array)
 end
 
 def using_flatten (array)
-  it "takes in an argument of an array that contains other arrays and uses the flatten method to return an array of strings" do 
      instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
      flat_array = array.flatten
-  end
+end
